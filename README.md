@@ -8,13 +8,13 @@ public class TableAreaCalculator {
         Random random = new Random();
         // 13.074
         // 52.296
-        // System.out.println("Enter the length of the base 1 (in nanometers): ");
+      
         double length = 4.08 + random.nextDouble(4.08);
 
-        // System.out.println("Enter the width of the base2 (in nanometers): ");
+        
         double width = 4.08 + random.nextDouble(4.08);
 
-        // System.out.println("Enter the height (in nanometers): ");
+        
         double height = 4.08 + random.nextDouble(4.08);
 
         double area = calculateArea(length, width, height);
